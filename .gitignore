@@ -33,3 +33,53 @@ lerna-debug.log*
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+
+# src-angular
+
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+src-angular/dist
+src-angular/tmp
+src-angular/out-tsc
+# Only exists if Bazel was run
+src-angular/bazel-out
+
+# dependencies
+src-angular/node_modules
+
+# profiling files
+src-angular/chrome-profiler-events*.json
+
+# IDEs and editors
+src-angular/.idea
+src-angular/.project
+src-angular/.classpath
+src-angular/.c9/
+src-angular/*.launch
+src-angular/.settings/
+src-angular/*.sublime-workspace
+
+# IDE - VSCode
+src-angular/.vscode/*
+src-angular/!.vscode/settings.json
+src-angular/!.vscode/tasks.json
+src-angular/!.vscode/launch.json
+src-angular/!.vscode/extensions.json
+src-angular/.history/*
+
+# misc
+src-angular/.sass-cache
+src-angular/connect.lock
+src-angular/coverage
+src-angular/libpeerconnection.log
+src-angularnpm-debug.log
+src-angularyarn-error.log
+src-angulartestem.log
+src-angular/typings
+
+# System Files
+src-angular/.DS_Store
+src-angular/Thumbs.db
